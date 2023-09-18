@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Noto+Sans+Thai:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> -->
+  </head>
+  <body
+    class="bg-secondaryOne flex items-center flex-col min-h-screen justify-center font-hanken"
+  >
+    <main class="text-center bg-rear min-w-[375px] sm:min-w-0 sm:rounded-2xl">
+      <div class="sm:flex flex-row">
+        <div
+          class="sm:rounded-2xl sm:max-w-sm flex items-center flex-col rounded-b-2xl justify-center pb-8 bg-gradient-to-b from-gradientsOne to-gradientsTwo text-secondaryTwo"
+        >
+          <div>
+            <h1 class="font-medium py-5">Your Result</h1>
+            <div
+              class="flex items-center flex-col justify-center w-28 h-28 rounded-full bg-gradient-to-b from-circleOne"
+            >
+              <p class="text-5xl font-semibold text-white">76</p>
+              <p class="font-sans">of 100</p>
+            </div>
+          </div>
+          <h1 class="text-lg font-medium text-white pt-5">Great</h1>
+          <p class="font-sans w-5/6">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center sm:w-80">
+          <div class="w-11/12 flex flex-col items-center font-semibold gap-4">
+            <div class="w-full">
+              <h1 class="mt-5 float-left">Summary</h1>
+            </div>
+            <div
+              class="flex flex-row bg-primaryOne bg-opacity-10 w-full h-10 justify-between items-center p-5 rounded-lg"
+            >
+              <div class="text-primaryOne flex flex-row">
+                <img src="./assets/images/icon-reaction.svg" class="pr-2" />
+                Reaction
+              </div>
+              <div class="text-secondaryThree">
+                80
+                <span class="text-secondaryTwo">/ 100</span>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-row bg-primaryTwo bg-opacity-10 w-full h-10 justify-between items-center p-5 rounded-lg"
+            >
+              <div class="text-primaryTwo flex flex-row">
+                <img src="./assets/images/icon-memory.svg" class="pr-2" />
+                Memory
+              </div>
+              <div class="text-secondaryThree">
+                92
+                <span class="text-secondaryTwo">/ 100</span>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-row bg-primaryThree bg-opacity-10 w-full h-10 justify-between items-center p-5 rounded-lg"
+            >
+              <div class="text-primaryThree flex flex-row">
+                <img src="./assets/images/icon-verbal.svg" class="pr-2" />
+                Verbal
+              </div>
+              <div class="text-secondaryThree">
+                61
+                <span class="text-secondaryTwo">/ 100</span>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-row bg-primaryFour bg-opacity-10 w-full h-10 justify-between items-center p-5 rounded-lg"
+            >
+              <div class="text-primaryFour flex flex-row">
+                <img src="./assets/images/icon-visual.svg" class="pr-2" />
+                Visual
+              </div>
+              <div class="text-secondaryThree">
+                72
+                <span class="text-secondaryTwo">/ 100</span>
+              </div>
+            </div>
+
+            <div class="w-full pb-6">
+              <button
+                class="bg-secondaryThree text-secondaryOne w-11/12 h-10 rounded-full"
+              >
+                Continue
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-center text-[11px] p-10">
+      Challenge by
+      <a
+        class="text-gradientsTwo"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="text-gradientsTwo" href="https://github.com/SmallBetter"
+        >SmallBetter</a
+      >.
+    </footer>
+  </body>
+</html>
